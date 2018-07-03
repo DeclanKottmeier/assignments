@@ -1,0 +1,64 @@
+@font-face {
+    font-family: luigiFont;
+    src: url("./fonts/SuperMario256.ttf");
+}
+
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+.container > div {
+    font-size: 40px;
+    font-family: luigiFont;
+    color: red;
+}
+
+.container > div:nth-child(1){
+    padding: 25px;
+    background-color: yellow;
+}
+
+.container > div:nth-child(2){
+    padding: 20px;
+    background-color: red;
+}
+
+.container > div:nth-child(3){
+    padding: 20px;
+    background-color: white;
+}
+
+.container > div:nth-child(4){
+    padding: 5px;
+    background-color: yellow;
+}
+
+.container > div:nth-child(2) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container > div:nth-child(4) > img{
+    height: 70px;
+    width: auto;
+    margin-left: 1150px;
+}
+
+.container > div > h1 {
+    font-size: 50px;
+    font-family: luigiFont;
+    color: red;
+    text-align: center
+}
+
+.container > div > p {
+    font-size: 20px;
+    font-family: luigiFont;
+    color: red;
+    text-align: center;
+    padding-left: 430px;
+    padding-right: 430px;
+
+}

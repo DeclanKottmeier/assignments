@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+}
+@media only screen and (max-width: 600px){
+    #navbar {
+    background-color: navy;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    transition: top 0.4s;
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    z-index: 10;
+    }
+
+    #navbar a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 1px 5px;
+        text-decoration: none;
+        font-family: Roboto;
+    }
+
+    .leftNav {
+        float: left;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .rightNav {
+        float: right;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    img {
+        padding-left: 7px;
+        height: 20px;
+        width: auto;
+    }
+
+    #itemB {
+        margin-right: 7px;
+    }
+    
+    #spaceA {
+        height: 28px;
+        width: 7px;
+    }
+    
+    #spaceB {
+        height: 28px;
+        width: 7px;
+    }
+
+    .container > div {
+        position: relative;
+        justify-content: center; 
+        align-items: center; 
+        color: black;
+        font-family: Roboto;
+        margin-bottom: 70px;
+    }
+
+    .container {
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .motorboat {
+        width: 300px;
+        height: auto;
+    }
+
+    .rowboat {
+        width: 300px;
+        height: auto;
+    }
+
+    .titanic {
+        width: 300px;
+        height: auto;
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 28px;
+    }
+
+    h3 {
+        margin-top: 15px;
+    }
+
+    .notice {
+        text-align: center;
+        font-family: Roboto;
+        margin-bottom: 10px;
+    }
+
+    .sellBoats {
+        text-align: center;
+        font-family: Roboto;
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #navbar {
+        background-color: navy;
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        transition: top 0.4s;
+        box-shadow: 0 2px 4px rgba(0,0,0,.5);
+        z-index: 10;
+    }
+
+    #navbar a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 26px 16px;
+        text-decoration: none;
+        font-family: Roboto;
+    }
+    
+    .leftNav {
+        float: left;
+        font-size: 20px;
+    }
+    
+    .rightNav {
+        float: right;
+        font-size: 20px;
+    }
+    
+    img {
+        padding-left: 10px;
+        height: 20px;
+        width: auto;
+    }
+    
+    #itemB {
+        margin-right: 15px;
+    }
+    
+    #spaceA {
+        height: 24px;
+        width: 10px;
+    }
+    
+    #spaceB {
+        height: 24px;
+        width: 10px;
+    }
+
+    .container > div {
+        position: relative;
+        justify-content: center; 
+        align-items: center; 
+        color: black;
+        font-family: Roboto;
+        margin-bottom: 150px;
+    }
+
+    .container {
+        margin-top: 180px;
+        margin-left: 80px;
+        margin-right: 80px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .motorboat {
+        width: 300px;
+        height: auto;
+    }
+
+    .rowboat {
+        width: 300px;
+        height: auto;
+    }
+
+    .titanic {
+        width: 300px;
+        height: auto;
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 28px;
+    }
+
+    h3 {
+        margin-top: 15px;
+    }
+
+    .notice {
+        text-align: center;
+        font-family: Roboto;
+        margin-bottom: 10px;
+    }
+
+    .sellBoats {
+        text-align: center;
+        font-family: Roboto;
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #navbar {
+        background-color: navy;
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        transition: top 0.4s;
+        box-shadow: 0 2px 4px rgba(0,0,0,.5);
+        z-index: 10;
+    }
+
+    #navbar a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 26px 16px;
+        text-decoration: none;
+        font-family: Roboto;
+    }
+    
+    .leftNav {
+        float: left;
+        font-size: 24px;
+    }
+    
+    .rightNav {
+        float: right;
+        font-size: 24px;
+    }
+    
+    img {
+        padding-left: 10px;
+        height: 25px;
+        width: auto;
+    }
+    
+    #itemB {
+        margin-right: 20px;
+    }
+    
+    #spaceA {
+        height: 28px;
+        width: 15px;
+    }
+    
+    #spaceB {
+        height: 28px;
+        width: 15px;
+    }
+
+    .container > div {
+        position: relative;
+        justify-content: center; 
+        align-items: center; 
+        color: black;
+        font-family: Roboto;
+        margin-bottom: 150px;
+    }
+
+    .container {
+        margin-top: 180px;
+        margin-left: 200px;
+        margin-right: 200px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .motorboat {
+        width: 400px;
+        height: auto;
+    }
+
+    .rowboat {
+        width: 400px;
+        height: auto;
+    }
+
+    .titanic {
+        width: 400px;
+        height: auto;
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 28px;
+    }
+
+    h3 {
+        margin-top: 15px;
+    }
+
+    .notice {
+        text-align: center;
+        font-family: Roboto;
+        margin-bottom: 10px;
+    }
+
+    .sellBoats {
+        text-align: center;
+        font-family: Roboto;
+        margin-top: 150px;
+    }
+
+}

@@ -1,6 +1,5 @@
-var fizzbuzz = []
-
 function fizzler() {
+    var fizzbuzz = []
     for(k = 1; k < 101; k++) {
         if ((k % 3 === 0) && (k % 5 === 0)) {
             fizzbuzz.push("fizzbuzz");
@@ -12,7 +11,8 @@ function fizzler() {
             fizzbuzz.push(k)
         }
     }
-    console.log(fizzbuzz)
+    return(fizzbuzz)
 }
 
 fizzler()
+console.log(fizzler())
